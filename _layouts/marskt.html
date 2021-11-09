@@ -1,0 +1,45 @@
+{% include top-marskt.html %}
+
+<body class="wrap">
+{% include header-marskt.html %}
+
+{{ content }}
+
+{% include footer-marskt.html %}
+
+<script src="{{ "/assets/js/jquery-2.1.4.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/mixitup.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/wow-1.3.0.min.js" | prepend: site.baseurl }}"></script>
+
+<script>
+
+    // Active WOW js
+
+    if($('.wow').length){
+
+        var wow = new WOW({
+
+            boxClass:     'wow',
+
+            animateClass: 'animated',
+
+            offset:       0,
+
+            mobile:       true,
+
+            live:         true
+
+        });
+
+        wow.init();
+
+    };
+
+</script>
+<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/active.js" | prepend: site.baseurl }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+# Site settings
+title: 王小龙的博客
+email: vga1215@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  王小龙的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://www.marskt.com # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Shawn Wang
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+twitter:
+weixin: 31525291
+github: vga1215
+instagram:
+linkedin:
+
+# avatar and Favicon
+avatar: https://www.marskt.com/assets/img/site-avatar.png
+favicon: https://www.marskt.com/assets/img/site-favicon.ico
+
+# disqus config
+disqus:
+  shortname: vga1215
+
+# google analytics config
+ga:
+  id:
+  url: marskt.com
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
