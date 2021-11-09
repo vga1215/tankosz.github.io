@@ -4,7 +4,7 @@ email: vga1215@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   王小龙的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://www.marskt.com # the base hostname & protocol for your site
+url: https://www.tankosz.com # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: Shawn Wang
 
@@ -21,8 +21,8 @@ instagram:
 linkedin:
 
 # avatar and Favicon
-avatar: https://www.marskt.com/assets/img/site-avatar.png
-favicon: https://www.marskt.com/assets/img/site-favicon.ico
+avatar: https://www.tankosz.com/assets/img/site-avatar.png
+favicon: https://www.tankosz.com/assets/img/site-favicon.ico
 
 # disqus config
 disqus:
@@ -31,7 +31,7 @@ disqus:
 # google analytics config
 ga:
   id:
-  url: marskt.com
+  url: tankosz.com
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
