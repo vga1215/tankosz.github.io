@@ -21,8 +21,8 @@ instagram:
 linkedin:
 
 # avatar and Favicon
-avatar: https://www.tankosz.com/assets/img/site-avatar.png
-favicon: https://www.tankosz.com/assets/img/site-favicon.ico
+# avatar: https://www.tankosz.com/assets/img/site-avatar.png
+# favicon: https://www.tankosz.com/assets/img/site-favicon.ico
 
 # disqus config
 disqus:
